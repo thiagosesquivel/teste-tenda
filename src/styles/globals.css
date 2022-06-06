@@ -1,13 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700;800&display=swap');
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family:OpenSans;
 }
 
 a {
@@ -16,5 +15,13 @@ a {
 }
 
 * {
+  font-family: 'Open Sans', sans-serif;
   box-sizing: border-box;
+}
+
+:root{
+  --verde-escuro:#00484C;
+  --verde-claro:#69D7A0;
+  --bege:#E9DAC1;
+  --bege-opacity:rgba(0, 0, 0, 0.1);
 }
