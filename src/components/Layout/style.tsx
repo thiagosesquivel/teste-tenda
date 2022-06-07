@@ -7,6 +7,7 @@ export const Container = styled.div`
     background: var(--verde-claro);
     border-radius: 2px;
     z-index: 20;
+    overflow: hidden;
 `
 
 export const ImageBg = styled.img`
@@ -25,4 +26,5 @@ left: 56.22%;
 right: 3%;
 top: 41%;
 bottom: 0;
+transform: scale(1.3);
 `;

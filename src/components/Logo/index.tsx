@@ -4,7 +4,7 @@ import { Container } from './style'
 export default function Logo() {
   return (
         <Container>
-            <h1 className='title'>Loja Virtual</h1>
+            <h1>Loja Virtual</h1>
             <img src="./logo.png"/>
         </Container>
     )
