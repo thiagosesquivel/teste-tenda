@@ -8,6 +8,10 @@ export const Container = styled.div`
     border-radius: 2px;
     z-index: 20;
     overflow: hidden;
+    @media (max-width:720px) {
+       height: auto;
+       padding: 12px;
+    }
 `
 
 export const ImageBg = styled.img`

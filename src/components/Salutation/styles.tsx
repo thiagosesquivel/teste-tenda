@@ -12,8 +12,20 @@ export const Container =  styled.div`
  width: 100%;
  flex-direction: column;
 
+ p{
+     font-weight: 700;
+ }
+
   .title{
       font-size: 3rem;
       color: white;
   }
+
+  @media (max-width:720px) {
+        .title{
+            font-size: 2rem;
+        }
+
+        
+    }
 `;

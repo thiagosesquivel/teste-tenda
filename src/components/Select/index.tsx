@@ -11,9 +11,11 @@ export default function Select({options, icon:Icon}) {
         </ContainerIcon>
         <select placeholder=''>
             <option> Selecione onde morar</option>
-            {options?.map(option=> <option key={option.value} value={option.value}>{option.description}</option>)}
+            {options?.map(option=> <option key={option} value={option}>{option}</option>)}
         </select>
     </SelectContainer>
 
     )
 }
+
+

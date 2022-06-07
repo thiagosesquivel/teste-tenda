@@ -9,10 +9,10 @@ import Button from '../Button/index';
 import Checkbox from '../Checkbox/index';
 
 
-export default function Form() {
+export default function Form({options}) {
   return (
 <Container>
-  <Select icon={GoLocation} options={[{description:"Qualquer coisa", value:"jdksasjda"}]} />
+  <Select options={options} icon={GoLocation}/>
   <Input icon={BiUser} placeholder="Digite seu nome" />
   <Input icon={AiOutlineWhatsApp} placeholder="Digite seu WhatsApp"/>
   <Button conteudo="Quero uma Altea" />
@@ -20,3 +20,5 @@ export default function Form() {
   <Checkbox id="promocao" conteudo="Quero receber promoções exclusivas por e-mail e telefone."/>
 </Container>  )
 }
+
+

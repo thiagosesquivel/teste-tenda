@@ -16,4 +16,10 @@ export const Grid = styled.div`
     grid-template-columns: 2fr 1fr;
     height: auto;
     width: 55%;
+
+    @media (max-width:720px) {
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+
 `;
